@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #232323;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+.logo {
+    margin-top: 15px;
+    float: left;
+}
+
+nav {
+    float: right;
+    margin-top: 30px;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.menu li {
+    float: left; 
+    display: block;
+    margin-left: 44px;
+}
+
+.info {
+    margin-top: 172px;
+}
+
+.info .icon {
+    border: 1px solid #5D5C5D;
+    float: left;
+    width: 232px;
+    height: 232px;
+}
+
+.info .description {
+    margin-left: 25px;
+    float: left;
+}
+
+.info h1 {
+    text-transform: uppercase;
+    font-size: 34px;
+    margin: 0;
+}
+
+.info p {
+    color: #A7A7A7;
+    font-size: 24px;
+    margin: 22px 0 0 0;
+}
+
+.store-badges {
+    margin: 50px 0 0 0;
+    padding: 0;
+    display: block;
+}
+
+.store-badges  li {
+    float: left; 
+    display: block;
+    margin-right: 25px;
+}
+
+.store-badges li:last-child {
+    margin-right: 0;
+}
+
+.store-badges li:hover {
+    margin-top: -2px;
+}
+
+.video {
+    margin-top: 52px;
+}
+
+.video img {
+    border: 1px solid #5D5C5D;
+    width: 908px;
+}
+
+.screenshots {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.screenshots li {
+    float: left;
+    display: block;
+    margin-top: 52px;
+    margin-right: 26px;
+}
+
+.screenshots img {
+    width: 206px;
+    border: 1px solid #5D5C5D;
+}
+
+.screenshots li:last-child {
+    margin-right: 0;
+}
+
+footer {
+    margin-top: 152px;
+    margin-bottom: 42px;
+    text-align: center;
+    font-size: 18px;
+    color: #A7A7A7;
+}
