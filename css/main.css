@@ -46,7 +46,7 @@ nav {
 }
 
 .info {
-    margin-top: 172px;
+    margin-top: 50px;
 }
 
 .info .icon {
@@ -125,9 +125,15 @@ nav {
 }
 
 footer {
-    margin-top: 152px;
+    margin-top: 50px;
     margin-bottom: 42px;
     text-align: center;
     font-size: 18px;
     color: #A7A7A7;
+}
+
+footer a {
+    text-align: center;
+    font-size: 18px;
+    color: #F7F7F7;
 }
