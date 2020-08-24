@@ -1,9 +1,20 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #232323;
+    background-color: #111111;
     color: #fff;
     font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #111111;
+    padding: 15px 0;
+}
+
+.game_page
+{
+    padding: 40px 0;
+    margin: 5px 0;
 }
 
 .clearfix:after {
@@ -24,7 +35,6 @@ div {
 }
 
 .logo {
-    margin-top: 15px;
     float: left;
 }
 
@@ -45,15 +55,18 @@ nav {
     margin-left: 44px;
 }
 
-.info {
-    margin-top: 50px;
-}
 
 .info .icon {
-    border: 1px solid #5D5C5D;
     float: left;
     width: 232px;
     height: 232px;
+}
+
+.info .icon img {
+    border: 1px solid #5D5C5D;
+    width: 232px;
+    height: 232px;
+    border-radius: 25%;
 }
 
 .info .description {
@@ -62,12 +75,11 @@ nav {
 }
 
 .info h1 {
-    text-transform: uppercase;
     font-size: 34px;
     margin: 0;
 }
 
-.info p {
+.info p a {
     color: #A7A7A7;
     font-size: 24px;
     margin: 22px 0 0 0;
@@ -91,6 +103,7 @@ nav {
 
 .store-badges li:hover {
     margin-top: -2px;
+    margin-bottom: 2px;
 }
 
 .video {
@@ -118,6 +131,12 @@ nav {
 .screenshots img {
     width: 206px;
     border: 1px solid #5D5C5D;
+    border-radius: 10px;
+}
+
+.screenshots iframe {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #111111;
 }
 
 .screenshots li:last-child {
@@ -125,8 +144,8 @@ nav {
 }
 
 footer {
-    margin-top: 50px;
-    margin-bottom: 42px;
+    background-color: #111111;
+    padding: 15px 0;
     text-align: center;
     font-size: 18px;
     color: #A7A7A7;
